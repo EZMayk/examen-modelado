@@ -17,7 +17,6 @@ web_agent = Agent (
     storage=SqliteStorage(table_name="web_agent", db_file=agent_storage),
     # Adds the current date and time to the instructions
     add_datetime_to_instructions=True,
-    # Adds the history of the conversation to the messages
     add_history_to_messages=True,
     # Number of history responses to add to the messages
     num_history_responses=5,
